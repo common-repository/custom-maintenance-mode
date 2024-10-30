@@ -1,0 +1,210 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+	background-image:url(../images/maingbg.jpg);
+}
+
+.wrapper {
+	margin:0 auto;
+}
+
+@-webkit-keyframes oscillation
+{
+	from
+	{
+		-webkit-transform:rotate(-9deg);
+	}
+	to{
+		-webkit-transform:rotate(9deg);
+	}
+}
+ 
+@-moz-keyframes oscillation
+{
+	from
+	{
+		-moz-transform:rotate(-9deg);
+	}
+	to{
+		-moz-transform:rotate(9deg);
+	}
+}
+
+
+
+
+
+h1 {
+    
+    font-family: 'Times New Roman',Helvetica,sans-serif
+    text-transform: uppercase;
+    font-size:70px;
+	color:#FFF;
+	margin-top:45px;
+    text-align: center;
+    
+}
+
+
+h2 {
+    
+    font-family: 'Times New Roman',Helvetica,sans-serif
+    text-transform: uppercase;
+    font-size:28px;
+	color:#FFF;
+	margin-top:45px;
+    text-align: center;
+    
+}
+h3 {
+    color:#b6b6b6;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:18px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.wpspandnt_amazingclock {
+    width:725px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.oscillate{ 
+transform: rotate(9deg);
+transform-origin:50% -40px; 
+    -ms-transform: rotate(9deg); /* IE 9 */
+    -ms-transform-origin:50% -40px; /* IE 9 */
+	-webkit-transform-origin:50% -40px;  
+	-moz-transform-origin:50% -40px;   
+	-webkit-animation: oscillation 1s ease-in-out infinite alternate;
+	-moz-animation: oscillation 1s ease-in-out infinite alternate;
+	background: url('../images/pendulum.png') no-repeat;
+	width: 50px; 
+	height:110px;
+	z-index:0;
+	position:absolute;
+	top:197px;
+	left:60px;
+}
+
+.maintenancelogo {
+	text-align:center; height:160px; margin-top:15px; margin-bottom:10px;
+}
+.maintenancelogotxt {
+	text-align:center; height:85px; margin-top:15px; margin-bottom:10px;
+}
+
+.wpspandnt_day {
+    float:left;
+    margin-right:20px;
+}
+.wpspandnt_hour {
+    float:left;
+    margin-right:20px;
+}
+.wpspandnt_minute {
+    float:left;
+    margin-right:20px;
+}
+.wpspandnt_second {
+    float:left;
+}
+
+.wpspandnt_round { 
+    background:url(../images/round.png) no-repeat; 
+    position:relative;
+}
+
+.clockcounter { position:absolute; top:60px; left:30px; width:100px;  height:100px; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:47px;
+    font-weight:bold;
+    color:#FFF;
+    line-height:50px;
+    margin-top:0px;
+    width:100px;}
+
+
+.type_days {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+    width:160px;
+	color:#cf86fd; 
+    text-align:center;
+	font-weight:bold;
+    line-height:40px;
+}
+
+.type_hours {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:16px;
+    width:160px;
+	color:#82f876;
+    text-align:center;
+	font-weight:bold;
+    line-height:40px;
+}
+
+.type_minutes {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+    width:160px;
+	color:#f8dc6b;
+    text-align:center;
+    font-weight:bold;
+    line-height:40px;
+}
+
+.type_seconds {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:16px;
+	width:160px;
+	color:#f27a4b;
+	text-align:center;
+    font-weight:bold;
+	line-height:40px;
+}
+
+.mainfooter {
+	width: 100%;
+	height:75px;
+	background-image:url(../images/diviers.png);
+	float:left;
+	margin-top:50px;
+}
+
+.footer_text p{ 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px; 
+	color:#b6b6b6; 
+	line-height:70px;
+	text-align:center;
+}
+
+.mainfooter a {
+	color:#6C7D8C;
+	text-decoration:none;
+	text-align:center;
+}
+
+.mainfooter a:hover {
+	color:#FFF;	
+}
+
+
+img { border:0;}
+        .follow_part{width:500px;margin:20px auto;padding-right:125px;} 
+		.follow_part ul{float:left;list-style:none;margin:0px auto;padding-right:15px;}
+		.follow_part ul li{float:left;}
+		.follow_part .subscribe{float:right;}
+		.follow_part .subscribe1{float:none;margin:0px auto;}  
+		.clear{clear:both;}  
+		.emails{background:#ffff; border:0px; border-radius: 5px;color: #000; float: left; height: 30px;margin-right: 10px; padding:1px 5px; width: 200px;}
+		.submit{background:#2275A6;border: medium none;border-radius: 5px;color: #FFFFFF; cursor: pointer;float: left;  font-family: Arial,Helvetica,sans-serif; font-size: 14px; padding:7px 9px;}
+		
+		.ui-progressbar { width: 100% !important; display:table ; text-align: center; height:100% !important; position: fixed !important; top: 0px !important; left: 0px !important; z-index: 9999 !important; background: rgba(0,0,0, 0.25) !important; }
+    .ui-progressbar img { position: relative; margin-top:22%;}
+
